@@ -24,9 +24,9 @@ export default function Hero() {
           className="bg-purple-600 hover:bg-purple-700 px-6 py-3 rounded-lg cursor-pointer transition">
           View Projects
         </Link>
-        <a href="/resume.pdf" download
+        <a href="/resume.pdf" target="_blank" rel="noreferrer"
           className="border border-purple-400 text-purple-400 hover:bg-purple-900 px-6 py-3 rounded-lg transition">
-          Download Resume
+          View Resume
         </a>
       </div>
       <div className="flex gap-6 text-2xl text-gray-400">
